@@ -1,0 +1,125 @@
+body {
+    background-color: #121212; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacao {
+    background: linear-gradient(135deg, #333, #222); /* Gradiente escuro */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.navegacao a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navegacao a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ddd;
+}
+
+#contato {
+    background: linear-gradient(135deg, #222, #1a1a1a); /* Gradiente escuro para a seção de contato */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#contato form {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+#contato label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato input[type="tel"],
+#contato textarea {
+    width: calc(100% - 22px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+#contato input[type="text"]:focus,
+#contato input[type="email"]:focus,
+#contato input[type="tel"]:focus,
+#contato textarea:focus {
+    border-color: #666;
+}
+
+#contato textarea {
+    resize: vertical;
+}
+
+#contato input[type="submit"] {
+    background-color: rgb(23, 159, 201); /* Azul agua */
+    color: #fff;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+#contato input[type="submit"]:hover {
+    background-color: #5a0eb8; /* Roxo mais escuro no hover */
+}
+
+/* ... seus estilos anteriores ... */
+
+.whatsapp-button {
+    background-color: #25D366; /* Cor verde do WhatsApp */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Cor verde mais escura no hover */
+}

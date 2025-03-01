@@ -1,0 +1,284 @@
+body {
+  background-color: #121212; /* Fundo preto */
+  color: #fff; /* Texto branco */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#voltar-topo {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0ae5f5;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  z-index: 999;
+}
+
+#voltar-topo.mostrar {
+  display: block;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+  background: linear-gradient(135deg, #333, #222); /* Gradiente escuro para o cabeçalho */
+}
+
+.front_inicio {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #0cbcf1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.subtitulo {
+  font-size: 1.2em;
+  color: #ddd;
+}
+
+.navegacao {
+  background: linear-gradient(135deg, #333, #222); /* Gradiente escuro para a navegação */
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+.navegacao a {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navegacao a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ddd;
+}
+
+.introducao, .habilidades, .projetos-destaque, #contato {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.introducao img.imagem-destaque {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.introducao p, .habilidades p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.habilidades h3, .projetos-destaque h3, #contato h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.habilidades ul {
+  list-style: none;
+  padding: 0;
+}
+
+.habilidades li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.projetos-lista {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projeto-link {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.projeto-link:hover {
+  background-color: #444;
+}
+
+#contato form {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+
+#contato label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #ddd;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato input[type="tel"],
+#contato textarea {
+  width: calc(100% - 22px);
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+#contato input[type="text"]:focus,
+#contato input[type="email"]:focus,
+#contato input[type="tel"]:focus,
+#contato textarea:focus {
+  border-color: #666;
+}
+
+#contato textarea {
+  resize: vertical;
+}
+
+#contato input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contato input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#contato ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#contato li {
+  margin-bottom: 10px;
+}
+
+.rodape {
+  background: linear-gradient(135deg, #333, #222); /* Gradiente escuro para o rodapé */
+  padding: 20px;
+  text-align: center;
+  color: #ddd;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #ddd;
+  margin: 0 10px;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+
+.rodape{
+    display: block;
+    color: aqua;
+    text-align: center;
+}
+
+
+/* index.css */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .navegation {
+    /* seus estilos de navegação */
+  }
+  
+  img {
+    max-width: 100%; /* para garantir que as imagens sejam responsivas */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  /* ... outros estilos gerais ... */
+  
+  @media print {
+    body {
+      font-size: 12pt;
+    }
+  
+    nav {
+      display: none;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    img {
+      max-width: 90%;
+    }
+  }
+  
+  @media (orientation: landscape) {
+    img {
+      max-width: 50%;
+    }
+  }
+
+
+
+  #voltar-topo {
+    display: none; /* Oculta o botão inicialmente */
+    position: fixed; /* Fixa o botão na tela */
+    bottom: 20px; /* Distância da parte inferior da tela */
+    right: 20px; /* Distância da parte direita da tela */
+    background-color: #007bff; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    text-decoration: none; /* Remove sublinhado do link */
+    z-index: 999; /* Garante que o botão fique acima de outros elementos */
+  }
+  
+  #voltar-topo.mostrar {
+    display: block; /* Mostra o botão quando a classe "mostrar" é adicionada */
+  }
